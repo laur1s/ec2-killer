@@ -1,5 +1,5 @@
 # ec2-killer
-A Python script that kills your ec2 instances 
+A Python script that kills your ec2 instances. Do
 
 ## What is ec2-killer
 
@@ -10,5 +10,4 @@ were compromised it can delete instances that were created today.
 
 1. Install the required python modules: `pip install -r requirements.txt`
 2. dry run the script `python instances.py`
-3. run the script if you're sure that you want to terminate the instances `python instances.py commit` WARNING: This will terminate
-instances
+3. run the script if you're sure that you want to terminate the instances `python instances.py commit` WARNING: This will terminate instances. Don't run this on your account if you don't understand what the script is doing!
